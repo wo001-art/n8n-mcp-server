@@ -1,15 +1,13 @@
 {
-  "name": "n8n-extended-mcp-server",
+  "name": "n8n-mcp-server",
   "version": "1.0.0",
-  "description": "n8n MCP Extended Server for Claude",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "scripts": { "start": "node index.js" },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.1",
     "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.7.9",
     "dotenv": "^16.3.1",
-    "cors": "^2.8.5"
+    "uuid": "^9.0.0"
   }
 }

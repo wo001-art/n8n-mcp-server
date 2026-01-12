@@ -42,9 +42,10 @@ This is a single-file Express.js application (`index.js`) with three main compon
 - Sessions stored in `sessions` Map
 
 ### 3. n8n Node Database (`NODES_DB`)
-- Built-in catalog of common n8n nodes with their parameters, examples, and Korean aliases
-- Categories: Core, App, AI, AI Tool
-- `searchNodes()` - Search by name, type, category, or description (supports Korean)
+- Loaded from `nodes-data/nodes.json` (109 nodes)
+- Categories: Core, App, AI, AI Tool, Database, File, Utility
+- Korean aliases supported (e.g., 웹훅→Webhook, 노션→Notion)
+- `searchNodes()` - Search by name, type, category, or description
 - `getNodeByType()` - Get node details by type identifier
 
 ## Key Tools
